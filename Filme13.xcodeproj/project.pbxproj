@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		92D4A79E2B3ED3DD00038306 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4A79D2B3ED3DD00038306 /* main.swift */; };
+		92D4A7B42B3F543300038306 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4A7B12B3F543300038306 /* Database.swift */; };
+		92D4A7B52B3F543300038306 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4A7B22B3F543300038306 /* Model.swift */; };
+		92D4A7B62B3F543300038306 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92D4A7B32B3F543300038306 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,10 @@
 /* Begin PBXFileReference section */
 		92D4A79A2B3ED3DD00038306 /* Filme13 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Filme13; sourceTree = BUILT_PRODUCTS_DIR; };
 		92D4A79D2B3ED3DD00038306 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		92D4A7B02B3F543300038306 /* connection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = connection.json; sourceTree = "<group>"; };
+		92D4A7B12B3F543300038306 /* Database.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
+		92D4A7B22B3F543300038306 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		92D4A7B32B3F543300038306 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +64,10 @@
 		92D4A79C2B3ED3DD00038306 /* Filme13 */ = {
 			isa = PBXGroup;
 			children = (
+				92D4A7B02B3F543300038306 /* connection.json */,
+				92D4A7B12B3F543300038306 /* Database.swift */,
+				92D4A7B22B3F543300038306 /* Model.swift */,
+				92D4A7B32B3F543300038306 /* Utils.swift */,
 				92D4A79D2B3ED3DD00038306 /* main.swift */,
 			);
 			path = Filme13;
@@ -120,7 +131,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92D4A7B52B3F543300038306 /* Model.swift in Sources */,
+				92D4A7B42B3F543300038306 /* Database.swift in Sources */,
 				92D4A79E2B3ED3DD00038306 /* main.swift in Sources */,
+				92D4A7B62B3F543300038306 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
